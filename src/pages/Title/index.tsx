@@ -12,15 +12,13 @@ export default function Title() {
       </p>
 
       <button
-        onClick={() => navigate("/game")}
-        className="mt-12 rounded-xl bg-white px-10 py-4 text-2xl font-bold text-green-700 transition hover:scale-105"
+        onClick={() => navigate("/lobby")}
+        className="rounded-xl bg-green-600 px-8 py-4 text-xl text-white hover:bg-green-700"
       >
         ゲーム開始
       </button>
 
-      <p className="absolute bottom-5 text-sm opacity-70">
-        Version 0.0.1
-      </p>
+      <p className="text-gray-500">Ver 0.0.2</p>
     </div>
   );
 }
